@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Feira da escola</title>
+</head>
+<body>
+     <main>
+        <div class="passo ativo" id="passo-0">
+                <img src="img/cenario-passo0.avif" alt="">
+                <p>Eu e minha amiga Sofia estavamos nos programando para realizarmos a feira de empreendedorismo da nossa escola, nós tinhamos uas opções de sobremesas para fazermos.</p>
+                   <button class="btn-proximo" data-proximo="1"> Espeto de morango coberto de chocolate. </button>
+                   <button class="btn-proximo" data-proximo="2"> Bombom de uva no pote e bolo de morango coberto de chocolate. </button>
+        </div>
+        <div class="passo" id="passo-2"></div>
+                <p>Decidimos então fazer o bombom de uva no pote e o bolo de morango coberto de chocolate. </p>
+                  <button class="btn-proximo" data-proximo="3"> Fazer o bombom de uva no pote. </button>
+                  <button class="btn-proximo" data-proximo="4"> Fazer o bolo de morango coberto de chocolate. </button>
+       </div>
+       <div class="passo" id="passo-3">
+            <p>Fizemos o bombom de pote de uva e foi um sucesso. </p>
+              <button class="btn-proximo" data-proximo="2">Voltar. </button>
+       </div>
+       <div class="passo" id="passo-4">
+            <p>Tivemos um problema com o bolo de morango e tivemos que pensar se desistiriamos ou fariamos outra coisa.</p>
+               <button class="btn-proximo" data-proximo="0"> Desistir e voltar para o início. </button>
+               <button class="btn-proximo" data-proximo="5">Fazer uma torta de morango. </button>
+       </div>
+       <div class="passo" id="passo-5">
+           <img src="img/cenario-passo5.jpg" alt="imagem que deu tudo certo.">
+           <p>Fizemos a torta de morango e foi um sucesso. Vendemos todos os bombons de pote e todas as tortas. </p>
+       </div>
+       <div class="passo" id="passo-1">
+           <p>Desistimos de fazer o espetinho de morango pois estragaria muito rápido. </p>
+           <button class="btn-proximo" data-proximo="0">Voltar para o início. </button>
+       </div>
+     </main>
+     <script src="script.js"></script>
+</body>
+</html>
